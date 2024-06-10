@@ -61,10 +61,10 @@ const News = () => {
                                     <span className="reply-HL">#学习讨论</span></span>
                                 <div className="reply-img">
                                     <Image.PreviewGroup>
-                                        <Image width={400}
-                                            src={require("../../../assets/images/Rectangle 2027.png")}/>
+                                        <Image width={300} height={250}
+                                            src={require("../../../assets/images/Rectangle 2027.png")} />
                                         <Image
-                                            width={400}
+                                            width={300} height={250}
                                             src={require("../../../assets/images/Rectangle 2028.png")}
                                         />
                                     </Image.PreviewGroup>
@@ -129,11 +129,11 @@ const News = () => {
                                 <span className="reply-content">求汇编大佬 在线答疑<br></br>
                                     <span className="reply-HL">#学习讨论</span></span>
                                 <div className="reply-img">
-                                <Image.PreviewGroup>
-                                        <Image width={400}
-                                            src={require("../../../assets/images/Rectangle 2027.png")}/>
+                                    <Image.PreviewGroup>
+                                        <Image width={300} height={250}
+                                            src={require("../../../assets/images/Rectangle 2027.png")} />
                                         <Image
-                                            width={400}
+                                            width={300} height={250}
                                             src={require("../../../assets/images/Rectangle 2028.png")}
                                         />
                                     </Image.PreviewGroup>

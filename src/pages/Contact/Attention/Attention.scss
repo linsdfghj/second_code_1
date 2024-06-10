@@ -5,8 +5,9 @@
     margin-left: 15%;
     margin-top: 20px;
 }
-.leftUlBox{
-    padding: 10px; 
+
+.leftUlBox {
+    padding: 10px;
     display: flex;
     align-items: center;
     float: left;
@@ -14,32 +15,36 @@
     height: auto;
     background-color: #fff;
 }
-.leftUl{
-   list-style: none;
+
+.leftUl {
+    list-style: none;
 }
+
 .leftUl li:hover {
     color: #FFAA5E;
     text-decoration-line: underline;
     text-underline-offset: 0.5em;
-    // transition: all 0.5s;
 }
 
 .borderActive {
     color: #FFAA5E !important;
 }
-.leftUl li{
+
+.leftUl li {
     color: #6F6B6B;
-    letter-spacing:5px;
+    letter-spacing: 5px;
     font-size: 25px;
     margin-bottom: 5px;
     padding: 5px;
 }
-.rightMainBox{
+
+.rightMainBox {
     width: 80%;
     display: flex;
     float: right;
 }
-.noStyle{
+
+.noStyle {
     letter-spacing: 0;
 }
 
@@ -71,9 +76,11 @@
     image-rendering: -webkit-optimize-contrast;
     transform: translate(-50%, -50%);
 }
+
 .reply-item .content-wrap {
     position: relative;
 }
+
 .reply-item {
     padding: 22px 0 0 80px;
 
@@ -111,26 +118,26 @@
                 line-height: 30px;
                 cursor: pointer;
             }
-        }               
+        }
         .reply-content {
-            width: 1300px;
-            height: 1000px;
+            width: 100%;
             border: 1px solid #f0f4f7;
-            background-color: rgb(242,242,242);
+            background-color: rgb(242, 242, 242);
             margin-left: 0;
         }
-        .reply-HL{
+        .reply-HL {
             color: #FDA75F;
         }
-         .reply-img {
+        .reply-img {
             width: 100%;
-            height: 240px;
             margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
         }
         .replyImg {
-            width: 45%;
-            height: 100%;
-           margin-right: 5px;                     
+            flex: 1 1 45%;
+            height: auto;
         }
 
         .root-reply {
@@ -153,8 +160,6 @@
                     width: 86px;
                     margin-right: 20px;
                 }
-
-
 
                 .reply-like {
                     display: flex;

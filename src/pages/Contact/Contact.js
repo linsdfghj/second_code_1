@@ -16,7 +16,7 @@ const Contact = () => {
         {
             index: 1,
             name: "最新资讯",
-            path: " "
+            path: "Attention"
         },
         {
             index: 2,

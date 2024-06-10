@@ -55,10 +55,10 @@ const Match = () => {
                                     <span className="reply-HL">#竞赛分享</span></span>
                                 <div className="reply-img">
                                     <Image.PreviewGroup>
-                                        <Image width={400}
+                                        <Image width={300} height={250}
                                             src={require("../../../assets/images/Rectangle 2031.png")} />
                                         <Image
-                                            width={400}
+                                            width={300} height={250}
                                             src={require("../../../assets/images/Rectangle 2032.png")}
                                         />
                                     </Image.PreviewGroup>
@@ -119,10 +119,10 @@ const Match = () => {
                                     <span className="reply-HL">#竞赛分享</span></span>
                                 <div className="reply-img">
                                     <Image.PreviewGroup>
-                                        <Image width={400}
+                                        <Image width={300} height={250}
                                             src={require("../../../assets/images/Rectangle 2031.png")} />
                                         <Image
-                                            width={400}
+                                            width={300} height={250}
                                             src={require("../../../assets/images/Rectangle 2032.png")}
                                         />
                                     </Image.PreviewGroup>
