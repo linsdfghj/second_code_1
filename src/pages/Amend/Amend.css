@@ -1,0 +1,144 @@
+/* .logon-all {
+  background-image: url('../../assets/images/注册账号.png');
+  height: 100vh;
+  overflow-y: hidden;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logon-main {
+  margin-top: 200px;
+  margin-left: 60px;
+}
+.logon-title {
+  color: #6d7071;
+  font-size: 36px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+} */
+.amend-all {
+  background-image: url('../../assets/images/注册账号.png');
+  height: 100vh;
+  overflow-y: hidden;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.amendbox {
+  position: absolute; /* 使用绝对定位 */
+
+  width: 68%; /* 叠加图片的宽度，根据需要调整 */
+  height: 80%; /* 叠加图片的高度，根据需要调整 */
+  background-image: url('../../assets/images/logon2.png'); /* 叠加图片的路径 */
+  background-size: cover; /* 适应大小 */
+  display: flex;
+  justify-content: center;
+}
+.amend-logo {
+  position: absolute; /* 使用绝对定位 */
+
+  width: 52%; /* 叠加图片的宽度，根据需要调整 */
+  height: 9%; /* 叠加图片的高度，根据需要调整 */
+  background-image: url('../../assets/images/logon-logo.png'); /* 叠加图片的路径 */
+  background-size: cover; /* 适应大小 */
+}
+.amend-main {
+  margin-top: 20%;
+}
+.amend-title {
+  color: #6d7071;
+  font-size: 36px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+.phone {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.phone input {
+  width: 400px;
+  height: 50px;
+  font-size: 24px;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+}
+.code {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.code input {
+  width: 250px;
+  height: 50px;
+  font-size: 24px;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+}
+.code button {
+  width: 130px;
+  height: 50px;
+  margin-left: 20px;
+  background-color: white;
+  color: #ff8a33;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+}
+.password {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.password input {
+  width: 400px;
+  height: 50px;
+  font-size: 24px;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+}
+.password button {
+  width: 90px;
+  height: 50px;
+  margin-left: 10px;
+  background-color: white;
+  color: #ff8a33;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+}
+
+.complete {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.complete button {
+  width: 400px;
+  height: 50px;
+  background-color: #ff8d69;
+  color: white;
+  font-size: 26px;
+  border: none;
+  letter-spacing: 10px;
+  border-radius: 5px;
+}
+.confirm-password {
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+.confirm-password input {
+  width: 400px;
+  height: 50px;
+  font-size: 24px;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+}
+.confirm-password button {
+  width: 90px;
+  height: 50px;
+  margin-left: 10px;
+  background-color: white;
+  color: #ff8a33;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+}

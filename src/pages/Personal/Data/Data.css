@@ -1,0 +1,13 @@
+.data-all {
+  width: 80%;
+  min-height: 100vh;
+  display: flex;
+  float: right;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.data-down {
+  width: 80%;
+}
